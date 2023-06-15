@@ -7,7 +7,7 @@ require_once "config.php";
 // Definieer variabelen en initialiseer met lege waarden
 $username = $password = $confirm_password = "";
 $username_err = $password_err = $confirm_password_err = "";
- 
+  
 // process de data
 if($_SERVER["REQUEST_METHOD"] == "POST"){
  

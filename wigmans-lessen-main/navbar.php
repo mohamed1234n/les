@@ -22,7 +22,7 @@
           } else {
             echo '<li><a href="register.php">Registreren</a></li>
             <li><a href="login.php">Inloggen</a></li>';
-          }
+          } 
         ?>
     </ul>
   </nav>

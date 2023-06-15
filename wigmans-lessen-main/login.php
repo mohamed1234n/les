@@ -1,7 +1,7 @@
 <?php
 // Initialiseer de sessie
 session_start();
- 
+  
 // Controleer of de gebruiker al is ingelogd, zo ja, leid hem dan door naar de welkomstpagina
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: index.php");

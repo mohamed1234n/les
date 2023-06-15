@@ -3,6 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "schoenreus herkansing";
+ 
 
 
 // Connectie maken met de PDO.
